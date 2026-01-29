@@ -138,7 +138,7 @@ export function Contact({ onShowResume }: ContactProps) {
                       rows={6}
                       required
                       className="w-full px-5 py-4 rounded-2xl bg-white/80 dark:bg-white/10 border border-white/40 dark:border-white/20 focus:outline-none focus:ring-2 focus:ring-rose-400 text-gray-900 dark:text-white placeholder-gray-400 resize-none"
-                      placeholder="Tell me about your project..."
+                      placeholder="Write your message here..."
                     ></textarea>
                   </div>
                   <button
