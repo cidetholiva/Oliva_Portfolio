@@ -27,7 +27,7 @@ import { AcademicDataPage } from './pages/AcademicDataPage';
 import { ComingSoonPage } from './pages/ComingSoonPage';
 
 export default function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const [showResume, setShowResume] = useState(false);
 
   useEffect(() => {
