@@ -33,7 +33,7 @@ export function WorkGrid() {
     },
     {
       title: 'Creative Coding & Animation',
-      description: 'Generative art and experimental interfaces',
+      description: 'Art and experimental interfaces',
       image: creativeCodingGif,
       gradient: 'from-pink-400 to-rose-300',
       link: '/creative-coding',
