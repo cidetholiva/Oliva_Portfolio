@@ -6,9 +6,18 @@ const gymifyArImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a
 const imDeadImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/3f5f8a0b-02ae-4f57-b92b-c88091e40076_rw_1200.png?h=6792b90a7e7c97a54465e577791a1936';
 const zidethSagaImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/c6148512-b125-4f38-828f-e933c111aa52_rw_1200.png?h=369e960cb0313a08cd2e5147d9476232';
 const strandedImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/d638fad4-04cf-4627-b8b4-8974a58769ef_rw_1920.png?h=5b98bf3ec2afea8eb3c78bca767c9318';
+const snapLensImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/68540181-1e44-47a8-a7cf-9dfb1e06ff79_rw_1200.png?h=67a910ca761c0dbe221b7e6da6b595de';
 
 export function ImmersiveWorksPage() {
   const projects = [
+    {
+      title: 'Body Tracking Snap Lens',
+      description: 'Interactive Snapchat lens using body tracking, rigged 3D character animation, and real-time movement.',
+      image: snapLensImage,
+      gradient: 'from-pink-300 to-rose-400',
+      tags: ['AR', 'Snapchat', 'Body Tracking', '3D'],
+      link: '/project/snaplens',
+    },
     {
       title: 'Gymify AR',
       description: 'AR fitness prototype for working out alongside friends, family, or celebrities.',

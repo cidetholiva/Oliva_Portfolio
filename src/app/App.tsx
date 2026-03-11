@@ -19,6 +19,7 @@ import { ProjectVRMeditation } from './pages/ProjectVRMeditation';
 import { ProjectARCityExplorer } from './pages/ProjectARCityExplorer';
 import { ProjectDreamscape } from './pages/ProjectDreamscape';
 import { ProjectLightMotion } from './pages/ProjectLightMotion';
+import { ProjectSnapLens } from './pages/ProjectSnapLens';
 import { ProjectStampStudentUnion } from './pages/ProjectStampStudentUnion';
 import { ProjectServpro } from './pages/ProjectServpro';
 import { DataAnalyticsPage } from './pages/DataAnalyticsPage';
@@ -92,6 +93,7 @@ export default function App() {
             <Route path="/project/arcityexplorer" element={<ProjectARCityExplorer />} />
             <Route path="/project/dreamscape" element={<ProjectDreamscape />} />
             <Route path="/project/lightmotion" element={<ProjectLightMotion />} />
+            <Route path="/project/snaplens" element={<ProjectSnapLens />} />
             <Route path="/project/stampstudentunion" element={<ProjectStampStudentUnion />} />
             <Route path="/project/servpro" element={<ProjectServpro />} />
             <Route path="/data-analytics" element={<DataAnalyticsPage />} />
