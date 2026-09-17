@@ -9,10 +9,10 @@ export function GraphicDesignPage() {
   const projects = [
     {
       title: 'STAMP Student Union',
-      description: 'Student Designer for Marketing & Communications (Internship)',
+      description: 'Student Designer for Marketing & Communications (Student Manager)',
       image: stampImage,
       gradient: 'from-rose-300 to-pink-300',
-      tags: ['Branding', 'Print', 'Digital', 'Marketing'],
+      tags: ['Branding', 'Print', 'Digital', 'Marketing', 'Adobe Suite'],
       link: '/project/stampstudentunion',
     },
     {

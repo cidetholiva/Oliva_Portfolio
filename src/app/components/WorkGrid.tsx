@@ -63,7 +63,7 @@ export function WorkGrid() {
             My Work
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            A collection of projects across design, technology, and creative exploration
+            A collection of projects across design, technology, and immersive tech
           </p>
         </div>
 

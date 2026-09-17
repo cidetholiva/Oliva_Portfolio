@@ -13,7 +13,7 @@ export function AboutPreview() {
                 About Me
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-                Hi! I'm Cideth Oliva —a dual-degree student in Information Science and Immersive Media Design at the University of Maryland. I love building beautiful, accessible, and human-centered digital experiences by blending design thinking with creative tech. From front-end and full-stack development to UI/UX, data, and immersive AR/VR, I'm always experimenting, learning, and using tech as a tool to make a real impact.
+                Hi! I'm Cideth Oliva — I’m a recent University of Maryland graduate, and I’m currently pursuing my Master’s in Information Systems & AI. I’ve always loved both the creative and technical sides of technology, which has led me to work across design, product, data, development, AI, and immersive tech. I love learning new things, trying out new tools, and finding creative ways to bring ideas to life. A lot of what motivates me is making technology more inclusive and user-centered, while also helping bring more representation into the tech industry.
               </p>
             </div>
 

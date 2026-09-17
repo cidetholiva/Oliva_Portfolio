@@ -27,15 +27,19 @@ export function Hero() {
               </span>
               <span className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-pink-400"></div>
-                Frontend
+                Product
               </span>
               <span className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-rose-400"></div>
-                AR/VR
+                Data
               </span>
               <span className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-pink-400"></div>
-                Creative Tech
+                AI
+              </span>
+              <span className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full bg-pink-400"></div>
+                Product
               </span>
             </div>
 
