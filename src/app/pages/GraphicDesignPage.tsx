@@ -2,32 +2,67 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 
-const stampImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/90f562ea-29d7-4139-83d9-a870f34729cf_rw_1920.jpg?h=6b3d3d8580460dad84a7c6555346b045';
-const servproImage = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/d4c135d7-9b7e-4a5a-9f19-a8b4733d743f_rw_1200.png?h=ebcb3f0156f103f1eeec6531ad08d7f6';
+const stampImage =
+  'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/3eccdf27-653f-46fc-ac01-31477124e8e1_rw_1200.png?h=d9f586a3180d6a715d4342b32c100073';
+
+const servproImage =
+  'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/efbb4dbe-01b6-41fd-9753-6da1c86db83e_rw_1200.png?h=5044f1245b1773c607cb89233c1289f3';
+
+const classImage =
+  'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/ea5be6a2-8384-4aee-9e35-e41a91c9b1e6_rw_600.png?h=3e6670b81e0bd01da61015bfcdc31a9e';
 
 export function GraphicDesignPage() {
   const projects = [
     {
-      title: 'STAMP Student Union',
-      description: 'Student Designer for Marketing & Communications (Student Manager)',
+      title: 'Professional',
+      description:
+        'Student Designer for Marketing & Communications (Student Manager)',
       image: stampImage,
       gradient: 'from-rose-300 to-pink-300',
-      tags: ['Branding', 'Print', 'Digital', 'Marketing', 'Adobe Suite'],
+      tags: [
+        'Graphic Design',
+        'Branding',
+        'Marketing',
+        'Print Design',
+        'Digital Design',
+      ],
       link: '/project/stampstudentunion',
     },
     {
-      title: 'SERVPRO',
-      description: 'Graphic Design Marketing Design Intern',
+      title: 'Freelance',
+      description:
+        'Selected design work created for freelance clients.',
       image: servproImage,
       gradient: 'from-pink-300 to-rose-400',
-      tags: ['Marketing', 'Social Media', 'Photoshop', 'Canva'],
+      tags: [
+        'Graphic Design',
+        'Client Work',
+        'Exhibition Design',
+        'Promotional Design',
+        'Social Media',
+      ],
       link: '/project/servpro',
+    },
+    {
+      title: 'Coursework',
+      description:
+        'Selected design projects created through academic coursework.',
+      image: classImage,
+      gradient: 'from-pink-300 to-rose-400',
+      tags: [
+        'Graphic Design',
+        'Layout Design',
+        'UI',
+        'UX',
+      ],
+      link: '/project/class-coursework',
     },
   ];
 
   return (
     <section className="min-h-screen pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
+
         {/* Back to Works Button */}
         <Link
           to="/#work"
@@ -42,6 +77,7 @@ export function GraphicDesignPage() {
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent mb-4">
             Graphic Design
           </h1>
+
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
             Visual identities, marketing assets, and brand-driven design.
           </p>
@@ -55,6 +91,7 @@ export function GraphicDesignPage() {
               to={project.link}
               className="group relative overflow-hidden rounded-3xl backdrop-blur-xl bg-white/30 dark:bg-white/10 border border-white/40 dark:border-white/20 shadow-xl hover:shadow-2xl hover:shadow-rose-500/20 transition-all duration-300 hover:scale-[1.02] block"
             >
+
               {/* Image */}
               <div className="aspect-[4/3] overflow-hidden relative">
                 <ImageWithFallback
@@ -69,10 +106,11 @@ export function GraphicDesignPage() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-rose-500 dark:group-hover:text-rose-400 transition-colors">
                   {project.title}
                 </h3>
+
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   {project.description}
                 </p>
-                
+
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 pt-2">
                   {project.tags.map((tag, tagIndex) => (
@@ -85,7 +123,7 @@ export function GraphicDesignPage() {
                   ))}
                 </div>
 
-                {/* View Case Study Link */}
+                {/* View Project */}
                 <div className="flex items-center gap-2 text-sm text-rose-500 dark:text-rose-400 group-hover:text-rose-600 dark:group-hover:text-rose-500 transition-colors pt-2">
                   <span>View Project</span>
                   <ArrowRight className="w-4 h-4" />
@@ -93,10 +131,11 @@ export function GraphicDesignPage() {
               </div>
 
               {/* Glow Effect */}
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-rose-500/0 to-pink-500/0 group-hover:from-rose-500/10 group-hover:to-pink-500/10 transition-all duration-300 pointer-events-none"></div>
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-rose-500/0 to-pink-500/0 group-hover:from-rose-500/10 group-hover:to-pink-500/10 transition-all duration-300 pointer-events-none" />
             </Link>
           ))}
         </div>
+
       </div>
     </section>
   );

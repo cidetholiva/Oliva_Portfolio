@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const uiuxGif = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/0c32ea52-d82d-4c9d-8b48-83f4070d16db_rw_1920.png?h=591885a7518c403bbb24815f3845b356';
 const arvrGif = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/3a99dc3e-6cd9-457c-a966-47790bab898e_rw_1920.gif?h=5bfcdae4e4d7f477a71edc17e6de10e8';
-const graphicDesignImg = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/90f562ea-29d7-4139-83d9-a870f34729cf_rw_1920.jpg?h=6b3d3d8580460dad84a7c6555346b045';
+const graphicDesignImg = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/3eccdf27-653f-46fc-ac01-31477124e8e1_rw_1200.png?h=d9f586a3180d6a715d4342b32c100073';
 const creativeCodingGif = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/803bc13c-1beb-450c-a672-7a0a56935e67_rw_600.gif?h=af8c7bbcb03b656544a2086ce8e0db19';
-const dataAnalyticsImg = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/0cdb26e1-e757-4f50-b63b-0ae813ab0ad4_rw_1920.png?h=e07e0e90bd9cb537bf93a6fc0ce95497';
+const dataAnalyticsImg = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/03354bd6-7331-49c6-8e3d-d06c2e6a8772_rw_3840.png?h=60a7c58d9d3899086800cb39b969cd95';
 const comingSoonImg = 'https://cdn.myportfolio.com/9ad4e767-db52-4662-a159-aed2a549175d/3561ec1a-b34b-4963-8c26-7db3330b3e17_rw_600.png?h=675ac82fc91dfcb2b3661ce3f0cfd4ae';
 
 export function WorkGrid() {
@@ -26,7 +26,7 @@ export function WorkGrid() {
     },
     {
       title: 'Graphic Design & Marketing',
-      description: 'Visual storytelling and motion design',
+      description: 'Visual storytelling and product design',
       image: graphicDesignImg,
       gradient: 'from-rose-400 to-orange-300',
       link: '/graphic-design',

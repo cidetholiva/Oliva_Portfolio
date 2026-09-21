@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 
-export function ProjectStampStudentUnion() {
+export function ProjectClassCoursework() {
   return (
     <section className="min-h-screen pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -18,11 +18,11 @@ export function ProjectStampStudentUnion() {
         {/* Page Header */}
         <div className="mb-12 text-center">
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent mb-4">
-            Stamp Marketing & SERVPRO
+            Coursework
           </h1>
 
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Marketing & Communications
+            Selected design projects created through academic coursework.
           </p>
         </div>
 
@@ -35,9 +35,9 @@ export function ProjectStampStudentUnion() {
             <iframe
               loading="lazy"
               className="absolute top-0 left-0 w-full h-full border-0"
-              src="https://www.canva.com/design/DAHVy93pOV0/XurXDDkHuQU_QFXpA2QKaA/view?embed"
+              src="https://www.canva.com/design/DAHVy9encEg/PSpVI1iAv5MHfuhP9EL7fQ/view?embed"
               allowFullScreen
-              title="STAMP Student Union Marketing & Communications"
+              title="Class Coursework"
             />
           </div>
         </div>
